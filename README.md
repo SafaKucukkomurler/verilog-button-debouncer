@@ -1,0 +1,2 @@
+## Configurable and bit size adjustable linear feedback shift register for pseudo random number generation or white noise generation
+![Screenshot](https://github.com/SafaKucukkomurler/verilog-button-debouncer/blob/master/screenshot.JPG)
