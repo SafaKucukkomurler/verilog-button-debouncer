@@ -9,8 +9,9 @@ output reg signal_o
     
     parameter clock_freq = 100000000,
               debounce_time = 1000,
-              initial_value = 1'b0,
-              timerlim = clock_freq / debounce_time;
+              initial_value = 1'b0;
+
+    localparam timerlim = clock_freq / debounce_time;
 			  
 	`ifdef SIMULATION
 		localparam s_initial = "s_initial",
